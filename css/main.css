@@ -296,7 +296,7 @@ ul > li {
     display: flex;
     align-items: center;
     margin-bottom: 62px;
-    margin-right: 15%;
+    margin-right: 15px;
     margin-left: 15px;
 
     max-width: 640px;
@@ -313,8 +313,6 @@ ul > li {
     font-size: 13px;
     color: #000000;
     opacity: 0.54;
-
-    flex-shrink: 0;
   }
 
   .post_search:focus {
@@ -339,6 +337,8 @@ ul > li {
   .distribution {
     display: flex;
     flex-direction: column;
+    margin-right: 15px;
+    margin-left: 15px;
   }
 
   .distribution_mail {
@@ -426,10 +426,10 @@ ul > li {
 
   /* SECTION PRODUCTS */
 
-  .products{
+  .products {
     text-align: center;
   }
-  
+
   .product_card {
     min-height: 330px;
     display: flex;
@@ -441,6 +441,9 @@ ul > li {
 
   .img_style .product_img {
     z-index: 0;
+    width: 100%;
+    padding-left: 20px;
+    padding-right: 20px;
   }
 
   .card_content .card_title .card_paragraph .product_link {
@@ -477,12 +480,68 @@ ul > li {
     color: #b59f5b;
   }
 
+  /* FOOTER */
+
+  .main_footer {
+    padding-bottom: 50px;
+  }
+
   .social_wrapper {
     display: flex;
+    align-items: center;
+    flex-wrap: nowrap;
     background-color: #f4f7f6;
     min-width: 330px;
     min-height: 83px;
     justify-content: center;
     margin-bottom: 73px;
+  }
+
+  .social_list {
+    display: flex;
+  }
+
+  .list_svg {
+    width: 20px;
+    height: 20px;
+  }
+
+  .social_list_item {
+    margin-right: 50px;
+  }
+
+  .social_list_item:last-child {
+    margin-right: 0px;
+  }
+
+  .copyright {
+    text-align: center;
+    font-size: 12px;
+    font-weight: 700;
+    color: #999999;
+  }
+
+  @media (max-width: 640px) and (orientation: landscape) {
+    .trends {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: stretch;
+      margin-bottom: 45px;
+    }
+
+    .trends_card:nth-child(odd) {
+      margin-right: 4px;
+      flex-shrink: 0;
+    }
+
+    .trends_card:last-child {
+      margin-bottom: 3px;
+    }
+
+    .trends_card {
+      width: calc((100% - 4px) / 2);
+
+      flex-grow: 1;
+    }
   }
 }
