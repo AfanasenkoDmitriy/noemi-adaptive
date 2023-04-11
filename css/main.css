@@ -195,7 +195,7 @@ ul > li {
   min-width: 47px;
   min-height: 47px;
   border: none;
-  background: url("../svg/search.svg");
+  background: url("./svg/search.svg");
   background-size: 18px 18px;
   background-repeat: no-repeat;
   background-position: center;
@@ -350,7 +350,7 @@ ul > li {
     margin-bottom: 40px;
     padding-bottom: 218px;
 
-    background-image: url("../img/banner-bg-tablet.jpg");
+    background-image: url("./img/banner-bg-tablet.jpg");
   }
 
   .header_nav {
@@ -427,28 +427,28 @@ ul > li {
   }
 
   .trends_card:nth-of-type(1) {
-    background-image: url("../img/trend1.jpg");
+    background-image: url("./img/trend1.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-color: #30383a;
   }
 
   .trends_card:nth-of-type(2) {
-    background-image: url("../img/trend2.jpg");
+    background-image: url("./img/trend2.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-color: #30383a;
   }
 
   .trends_card:nth-of-type(3) {
-    background-image: url("../img/trend3.jpg");
+    background-image: url("./img/trend3.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-color: #30383a;
   }
 
   .trends_card:nth-of-type(4) {
-    background-image: url("../img/trend4.jpg");
+    background-image: url("./img/trend4.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-color: #30383a;
@@ -716,7 +716,7 @@ ul > li {
 
     appearance: none;
     position: relative;
-    background: url("../svg/form-arrows.svg") 94% / 3% no-repeat;
+    background: url("./svg/form-arrows.svg") 94% / 3% no-repeat;
     background-color: #f4f7f6;
 
     color: rgba(0, 0, 0, 0.5);
@@ -740,7 +740,7 @@ ul > li {
 
   .popup_radio:not(:checked)::before {
     content: "";
-    background-image: url("../svg/form-empty-circle.svg");
+    background-image: url("./svg/form-empty-circle.svg");
     background-size: cover;
     position: absolute;
     width: 25px;
@@ -752,7 +752,7 @@ ul > li {
 
   .popup_radio:checked::before {
     content: "";
-    background-image: url("../svg/form-circle.svg");
+    background-image: url("./svg/form-circle.svg");
     background-size: cover;
     position: absolute;
     width: 25px;
