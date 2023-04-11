@@ -328,6 +328,17 @@ ul > li {
   text-transform: uppercase;
 }
 
+.popup_btn {
+  border: none;
+  background-color: #b59f5b;
+  min-height: 47px;
+  color: #ffffff;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
 @media (min-width: 360px) and (max-width: 640px) {
   .wrapper {
     width: 100%;
@@ -678,7 +689,7 @@ ul > li {
 
   .popup {
     min-width: 330px;
-    min-height: 500px;
+    min-height: 200px;
     background-color: #ffffff;
     padding: 30px 23px;
   }
@@ -712,7 +723,57 @@ ul > li {
     margin-bottom: 35px;
   }
 
+  .popup_fieldset {
+    margin-bottom: 30px;
+  }
+
+  .radio_wrp {
+    padding-left: 25px;
+  }
+  .popup_radio {
+    position: relative;
+    appearance: none;
+  }
+  .popup_label {
+    margin-right: 65px;
+  }
+
+  .popup_radio:not(:checked)::before {
+    content: "";
+    background-image: url("../svg/form-empty-circle.svg");
+    background-size: cover;
+    position: absolute;
+    width: 25px;
+    height: 25px;
+
+    top: -17px;
+    left: -25px;
+  }
+
+  .popup_radio:checked::before {
+    content: "";
+    background-image: url("../svg/form-circle.svg");
+    background-size: cover;
+    position: absolute;
+    width: 25px;
+    height: 25px;
+
+    top: -17px;
+    left: -25px;
+  }
+
   .popup_textarea {
+    width: 100%;
+    min-height: 130px;
+    border: none;
+    background-color: #f4f7f6;
     resize: none;
+
+    padding: 20px;
+    margin-bottom: 27px;
+  }
+
+  .popup_btn {
+    width: 100%;
   }
 }
