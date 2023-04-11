@@ -432,13 +432,35 @@
         <div class="popup">
           <form action="" class="popup_form">
             <h2 class="section_title">Ваш фидбек</h2>
-            <p class="popup_text">Как часто вы заходите на сайт?</p>
-            <select name="select" class="popup_select">
-              <option value="1">почти каждый день</option>
-              <option value="2">Раз в несколько дней</option>
-              <option value="3">Раз в несколько недель</option>
-              <option value="4">Несколько раз в год</option>
-            </select>
+            <fieldset class="popup_fieldset">
+              <legend class="popup_text">Как часто вы заходите на сайт?</legend>
+              <select name="select" class="popup_select">
+                <option value="1">почти каждый день</option>
+                <option value="2">Раз в несколько дней</option>
+                <option value="3">Раз в несколько недель</option>
+                <option value="4">Несколько раз в год</option>
+              </select>
+            </fieldset>
+            <fieldset class="popup_fieldset">
+              <legend class="popup_text">
+                Вы подписаны на e-mail рассылку?
+              </legend>
+              <input type="radio" name="radio" id="yes" class="popup_radio" />
+              <label for="yes" class="popup_label">да</label>
+              <input type="radio" name="radio" id="no" class="popup_radio" />
+              <label for="no" class="popup_label">нет</label>
+            </fieldset>
+            <fieldset class="popup_fieldset">
+              <legend class="popup_text">
+                Расскажите, какой контент вы хотели бы видеть на нашем сайте?
+              </legend>
+              <textarea
+                name=""
+                placeholder="Может, больше рецептов?"
+                class="popup_textarea"
+              ></textarea>
+            </fieldset>
+            <button type="submit" class="popup_btn">отправить</button>
           </form>
         </div>
       </div>
