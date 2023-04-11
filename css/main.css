@@ -683,6 +683,10 @@ ul > li {
     padding: 30px 23px;
   }
 
+  .popup_fieldset {
+    border: none;
+  }
+
   .popup_text {
     font-size: 13px;
     font-weight: normal;
@@ -705,5 +709,10 @@ ul > li {
     background-color: #f4f7f6;
 
     color: rgba(0, 0, 0, 0.5);
+    margin-bottom: 35px;
+  }
+
+  .popup_textarea {
+    resize: none;
   }
 }
