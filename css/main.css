@@ -195,7 +195,7 @@ ul > li {
   min-width: 47px;
   min-height: 47px;
   border: none;
-  background: url("./svg/search.svg");
+  background: url("../svg/search.svg");
   background-size: 18px 18px;
   background-repeat: no-repeat;
   background-position: center;
