@@ -349,7 +349,6 @@ ul > li {
   .main_header {
     margin-bottom: 40px;
     padding-bottom: 218px;
-
     background-image: url("../img/banner-bg-tablet.jpg");
   }
 
@@ -788,5 +787,69 @@ ul > li {
 }
 
 @media (min-width: 641px) and (max-width: 1200px) {
- 
+ .main_header {
+    margin-bottom: 40px;
+    padding-bottom: 218px;
+
+    background-image: url("../img/banner-bg-tablet.jpg");
+  }
+
+  .header_top{
+    display: flex;
+
+  }
+
+  .menu_icon {
+    box-sizing: content-box;
+   
+    width: 23px;
+    height: 1px;
+    background-color: #ffffff;
+    border: 1px solid #ffffff;
+  }
+
+  .menu_icon::after {
+    content: "";
+    position: absolute;
+    top: 6px;
+    left: -1px;
+    width: 23px;
+    height: 1px;
+
+    background-color: #ffffff;
+    border: 1px solid #ffffff;
+  }
+
+  .menu_icon::before {
+    content: "";
+    position: absolute;
+    bottom: 6px;
+    left: -1px;
+    width: 23px;
+    height: 1px;
+
+    background-color: #ffffff;
+    border: 1px solid #ffffff;
+  }
+
+  .menu_close {
+    position: absolute;
+    fill: #ffffff;
+
+    width: 23px;
+    height: 20px;
+
+    top: 32px;
+    right: 15px;
+  }
+
+  .logo {
+    min-width: 160px;
+    
+    display: block;
+  }
+
+  .header_title {
+    font-size: 26px;
+  }
 }
