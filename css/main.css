@@ -37,6 +37,12 @@ ul > li {
   overflow: hidden;
 }
 
+.wrapper {
+  width: 100%;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
 .main_header {
   color: #ffffff;
   text-align: center;
@@ -340,12 +346,6 @@ ul > li {
 }
 
 @media (min-width: 360px) and (max-width: 640px) {
-  .wrapper {
-    width: 100%;
-    padding-left: 15px;
-    padding-right: 15px;
-  }
-
   .main_header {
     margin-bottom: 40px;
     padding-bottom: 218px;
@@ -353,9 +353,17 @@ ul > li {
     background-image: url("../img/banner-bg-tablet.jpg");
   }
 
+  .header_top{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
   .header_nav {
     padding-bottom: 172px;
-    position: relative;
+    position: absolute;
+    top: 30px;
+    right: 15px;
   }
 
   .menu_icon {
@@ -407,6 +415,7 @@ ul > li {
   .logo {
     min-width: 270px;
     margin-bottom: 43px;
+    padding-top: 220px;
     display: block;
   }
 
@@ -776,4 +785,8 @@ ul > li {
   .popup_btn {
     width: 100%;
   }
+}
+
+@media (min-width: 641px) and (max-width: 1200px) {
+ 
 }
