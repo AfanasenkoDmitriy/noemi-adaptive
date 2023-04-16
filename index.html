@@ -29,7 +29,9 @@
               />
             </svg>
           </button>
-          <ul class="nav_list visually-hidden">
+          <ul class="nav_list">
+            <li class="nav_item">главная</li>
+            <li class="nav_item">посты</li>
             <li class="nav_item">статьи</li>
             <li class="nav_item">теги</li>
             <li class="nav_item">темы</li>
@@ -39,63 +41,65 @@
       </div>
       <h1 class="header_title">блог о творчестве, спорте, и образе жизни</h1>
     </header>
+    <section class="trends">
+      <h2 class="section_title">сейчас в тренде</h2>
+      <div class="trends_wrp">
+        <article class="trends_card">
+          <div class="trends_style">
+            <span class="trends_text">Lifestyle</span>
+            <span class="trends_text">INTERIOR</span>
+            <h3 class="trends_title">Сейчас в тренде: сад на подоконнике</h3>
+          </div>
+        </article>
+        <article class="trends_card">
+          <div class="trends_style">
+            <span class="trends_text">Food</span>
+            <h3 class="trends_title">
+              сыры на красивых картинках из интернета: какие они на вкус?
+            </h3>
+          </div>
+        </article>
+        <article class="trends_card">
+          <div class="trends_style">
+            <span class="trends_text">Lifestyle</span>
+            <span class="trends_text">tRAVEL</span>
+            <h3 class="trends_title">Собираемся в первый поход в горы</h3>
+          </div>
+        </article>
+        <article class="trends_card">
+          <div class="trends_style">
+            <span class="trends_text">food</span>
+            <span class="trends_text">health</span>
+            <h3 class="trends_title">
+              Сейчас в тренде: сколько витамина С в лимонах?
+            </h3>
+          </div>
+        </article>
+      </div>
+    </section>
     <div class="wrapper">
-      <section class="trends">
-        <h2 class="section_title">сейчас в тренде</h2>
-        <div class="trends_wrp">
-          <article class="trends_card">
-            <div class="trends_style">
-              <span class="trends_text">Lifestyle</span>
-              <span class="trends_text">INTERIOR</span>
-              <h3 class="trends_title">Сейчас в тренде: сад на подоконнике</h3>
-            </div>
-          </article>
-          <article class="trends_card">
-            <div class="trends_style">
-              <span class="trends_text">Food</span>
-              <h3 class="trends_title">
-                сыры на красивых картинках из интернета: какие они на вкус?
-              </h3>
-            </div>
-          </article>
-          <article class="trends_card">
-            <div class="trends_style">
-              <span class="trends_text">Lifestyle</span>
-              <span class="trends_text">tRAVEL</span>
-              <h3 class="trends_title">Собираемся в первый поход в горы</h3>
-            </div>
-          </article>
-          <article class="trends_card">
-            <div class="trends_style">
-              <span class="trends_text">food</span>
-              <span class="trends_text">health</span>
-              <h3 class="trends_title">
-                Сейчас в тренде: сколько витамина С в лимонах?
-              </h3>
-            </div>
-          </article>
-        </div>
-      </section>
       <div class="container">
         <section class="posts">
-          <h2 class="visually-hidden">Посты</h2>
+          <h2 class="posts_title visually-hidden">Посты</h2>
           <article class="post_card">
             <img
               src="./img/last-post1.jpg"
               alt="человек на пляже"
               class="post_image"
             />
-            <span class="post_text">Travel</span>
-            <span class="post_text">Health</span>
-            <h3 class="post_title">
-              10 мест, ради которых стоит проснуться на рассвете
-            </h3>
-            <time datetime="2019-05-10" class="post_date">10 июня 2019</time>
-            <span class="author">Неизвестный автор</span>
-            <p class="post_paragraph">
-              Итак, вы в Питере. Раннее утро. Лед с рек и каналов уже ушел,
-              запущены фонтаны города… Музеи еще закрыты. Что посмотреть?
-            </p>
+            <div class="post_style">
+              <span class="post_text">Travel</span>
+              <span class="post_text">Health</span>
+              <h3 class="post_title">
+                10 мест, ради которых стоит проснуться на рассвете
+              </h3>
+              <time datetime="2019-05-10" class="post_date">10 июня 2019</time>
+              <span class="author">Неизвестный автор</span>
+              <p class="post_paragraph">
+                Итак, вы в Питере. Раннее утро. Лед с рек и каналов уже ушел,
+                запущены фонтаны города… Музеи еще закрыты. Что посмотреть?
+              </p>
+            </div>
           </article>
           <article class="post_card">
             <img
@@ -103,15 +107,19 @@
               alt="девушка на коврике для йоги"
               class="post_image"
             />
-            <span class="post_text">health</span>
-            <span class="post_text">lifestyle</span>
-            <h3 class="post_title">Йога для начинающих в домашних условиях</h3>
-            <time datetime="2019-05-10" class="post_date">10 июня 2019</time>
-            <span class="author">Неизвестный автор</span>
-            <p class="post_paragraph">
-              Расскажем, какие упражнения выбрать и как сделать коврик для
-              занятий йогой из того, что можно найти в шкафу.
-            </p>
+            <div class="post_style">
+              <span class="post_text">health</span>
+              <span class="post_text">lifestyle</span>
+              <h3 class="post_title">
+                Йога для начинающих в домашних условиях
+              </h3>
+              <time datetime="2019-05-10" class="post_date">10 июня 2019</time>
+              <span class="author">Неизвестный автор</span>
+              <p class="post_paragraph">
+                Расскажем, какие упражнения выбрать и как сделать коврик для
+                занятий йогой из того, что можно найти в шкафу.
+              </p>
+            </div>
           </article>
           <article class="post_card">
             <img
@@ -119,15 +127,19 @@
               alt="девушка танцует"
               class="post_image"
             />
-            <span class="post_text">music</span>
-            <h3 class="post_title">Лучшие музыкальные фестивали этого лета</h3>
-            <time datetime="2019-05-10" class="post_date">10 июня 2019</time>
-            <span class="author">Неизвестный автор</span>
-            <p class="post_paragraph">
-              Лето на носу, а с ним и музыкальные фестивали. На каком же из них
-              вы разобьёте свою палатку? Мы составили список лучших летних
-              фестивалей по всему миру.
-            </p>
+            <div class="post_style">
+              <span class="post_text">music</span>
+              <h3 class="post_title">
+                Лучшие музыкальные фестивали этого лета
+              </h3>
+              <time datetime="2019-05-10" class="post_date">10 июня 2019</time>
+              <span class="author">Неизвестный автор</span>
+              <p class="post_paragraph">
+                Лето на носу, а с ним и музыкальные фестивали. На каком же из
+                них вы разобьёте свою палатку? Мы составили список лучших летних
+                фестивалей по всему миру.
+              </p>
+            </div>
           </article>
           <article class="post_card">
             <img
@@ -135,15 +147,17 @@
               alt="обеденный стол"
               class="post_image"
             />
-            <span class="post_text">LYFESTYLE</span>
-            <span class="post_text">FOOD</span>
-            <h3 class="post_title">Наукоёмкий подход к кулинарии</h3>
-            <time datetime="2019-05-10" class="post_date">10 июня 2019</time>
-            <span class="author">Неизвестный автор</span>
-            <p class="post_paragraph">
-              Узнаем основы проектирования новых пищевых и около-пищевых опытов,
-              вскроем физику, химию и микробиологию еды.
-            </p>
+            <div class="post_style">
+              <span class="post_text">LYFESTYLE</span>
+              <span class="post_text">FOOD</span>
+              <h3 class="post_title">Наукоёмкий подход к кулинарии</h3>
+              <time datetime="2019-05-10" class="post_date">10 июня 2019</time>
+              <span class="author">Неизвестный автор</span>
+              <p class="post_paragraph">
+                Узнаем основы проектирования новых пищевых и около-пищевых
+                опытов, вскроем физику, химию и микробиологию еды.
+              </p>
+            </div>
           </article>
           <article class="post_card">
             <img
@@ -151,19 +165,21 @@
               alt="подушка с принтом"
               class="post_image"
             />
-            <span class="post_text">LYFESTYLE</span>
-            <span class="post_text">INTERIOR</span>
-            <span class="post_text">art</span>
-            <h3 class="post_title">
-              делаем модные принты на подушках для интерьера
-            </h3>
-            <time datetime="2019-05-10" class="post_date">10 июня 2019</time>
-            <span class="author">Неизвестный автор</span>
-            <p class="post_paragraph">
-              Подушки для дивана целесообразнее заказать в съемных чехлах на
-              молнии, если потребуется чистка подушек, проще снять чехлы, чем
-              везти подушку в химчистку.
-            </p>
+            <div class="post_style">
+              <span class="post_text">LYFESTYLE</span>
+              <span class="post_text">INTERIOR</span>
+              <span class="post_text">art</span>
+              <h3 class="post_title">
+                делаем модные принты на подушках для интерьера
+              </h3>
+              <time datetime="2019-05-10" class="post_date">10 июня 2019</time>
+              <span class="author">Неизвестный автор</span>
+              <p class="post_paragraph">
+                Подушки для дивана целесообразнее заказать в съемных чехлах на
+                молнии, если потребуется чистка подушек, проще снять чехлы, чем
+                везти подушку в химчистку.
+              </p>
+            </div>
           </article>
         </section>
         <div class="aside">
@@ -290,11 +306,14 @@
         <div class="product_container">
           <article class="product_card">
             <div class="img_style">
-              <img
-                src="./img/shop-item-mobile1.jpg"
-                alt=""
-                class="product_img"
-              />
+              <picture>
+                <source srcset="./img/shop-item-desk1.jpg" />
+                <img
+                  src="./img/shop-item-mobile1.jpg"
+                  alt=""
+                  class="product_img"
+                />
+              </picture>
             </div>
             <div class="card_content">
               <h4 class="card_title">Подушки на диван</h4>
@@ -313,11 +332,15 @@
           </article>
           <article class="product_card">
             <div class="img_style">
-              <img
-                src="./img/shop-item-mobile2.jpg"
-                alt=""
-                class="product_img"
-              />
+              <picture>
+                <source srcset="./img/shop-item-desk2.jpg" />
+
+                <img
+                  src="./img/shop-item-mobile2.jpg"
+                  alt=""
+                  class="product_img"
+                />
+              </picture>
             </div>
             <div class="card_content">
               <h4 class="card_title">Кукла «Зайчик»</h4>
@@ -337,11 +360,14 @@
           </article>
           <article class="product_card">
             <div class="img_style">
-              <img
-                src="./img/shop-item-mobile3.jpg"
-                alt=""
-                class="product_img"
-              />
+              <picture>
+                <source srcset="./img/shop-item-desk3.jpg" />
+                <img
+                  src="./img/shop-item-mobile3.jpg"
+                  alt=""
+                  class="product_img"
+                />
+              </picture>
             </div>
             <div class="card_content">
               <h4 class="card_title">Шестиугольная рамка</h4>
