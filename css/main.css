@@ -1182,6 +1182,7 @@ ul > li {
 
   .posts {
     width: 67%;
+    margin-bottom: 64px;
   }
 
   .post_card {
