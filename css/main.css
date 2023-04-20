@@ -1293,12 +1293,20 @@ ul > li {
     font-size: 12px;
   }
 
+  .tags_list_item:hover {
+    color: #b59f5b;
+  }
+
   .tags_list_item:last-child {
     margin-right: 0px;
   }
 
   .themes_list_item {
     font-size: 14px;
+  }
+
+  .themes_list_item:hover {
+    color: #b59f5b;
   }
 
   .product_container {
@@ -1320,5 +1328,9 @@ ul > li {
 
   .card_content {
     text-align: left;
+  }
+
+  .card_button:hover {
+    background-color: #323232;
   }
 }
