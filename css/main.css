@@ -1278,6 +1278,10 @@ ul > li {
     flex-grow: 1;
   }
 
+  .button_search:hover {
+    background-color: #323232;
+  }
+
   .distribution_mail {
     margin-bottom: 18px;
     font-size: 13px;
@@ -1285,6 +1289,10 @@ ul > li {
 
   .distribution_button {
     margin-bottom: 60px;
+  }
+
+  .distribution_button:hover {
+    background-color: #323232;
   }
 
   .tags_list_item {
