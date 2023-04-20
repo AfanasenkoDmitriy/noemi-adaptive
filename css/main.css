@@ -654,6 +654,10 @@ ul > li {
     font-size: 16px;
   }
 
+  .trends_list {
+    display: flex;
+  }
+
   /* SECTION POSTS */
 
   .post_card {
@@ -689,6 +693,10 @@ ul > li {
     font-size: 14px;
     font-weight: normal;
     margin-top: 20px;
+  }
+
+  .post_list {
+    display: flex;
   }
 
   /* SECTION NEW POST */
@@ -927,6 +935,14 @@ ul > li {
 
   .trends_title {
     font-size: 17px;
+  }
+
+  .post_list {
+    display: flex;
+  }
+
+  .trends_list {
+    display: flex;
   }
 
   @media (min-width: 640px) and (orientation: landscape) {
