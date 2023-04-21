@@ -1337,7 +1337,7 @@ ul > li {
     display: flex;
     flex-wrap: nowrap;
     margin-bottom: 65px;
-    align-items: center;
+    align-items: stretch;
   }
 
   .product_card {
@@ -1352,6 +1352,7 @@ ul > li {
 
   .card_content {
     text-align: left;
+    flex-grow: 1;
   }
 
   .card_button:hover {
