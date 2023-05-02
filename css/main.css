@@ -170,6 +170,7 @@ ul > li {
 .post_image {
   width: 100%;
   margin-bottom: 15px;
+  flex-shrink: 0;
 }
 
 .post_card::after {
@@ -268,6 +269,11 @@ ul > li {
   font-weight: 700;
   text-transform: uppercase;
   color: #ffffff;
+}
+
+.tags {
+  padding: 0 15px;
+  margin-bottom: 60px;
 }
 
 .tags_list {
@@ -371,6 +377,10 @@ ul > li {
 }
 
 .social_wrapper {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding-right: 15px;
+  padding-left: 15px;
   display: flex;
   align-items: center;
   flex-wrap: nowrap;
@@ -655,7 +665,9 @@ ul > li {
   }
 
   .trends_list {
+    width: 100%;
     display: flex;
+    flex-wrap: wrap;
   }
 
   /* SECTION POSTS */
@@ -943,6 +955,7 @@ ul > li {
 
   .trends_list {
     display: flex;
+    flex-wrap: wrap;
   }
 
   @media (min-width: 640px) and (orientation: landscape) {
@@ -1176,6 +1189,7 @@ ul > li {
 
   .trends_list {
     display: flex;
+    flex-wrap: wrap;
   }
 
   .trends_text {
@@ -1269,6 +1283,7 @@ ul > li {
   .news_img {
     margin-right: 19px;
     min-width: 70px;
+    flex-shrink: 0;
   }
 
   .post_date {
@@ -1319,6 +1334,7 @@ ul > li {
 
   .tags_list_item:hover {
     color: #b59f5b;
+    border: 3px solid #b59f5b;
   }
 
   .tags_list_item:last-child {
