@@ -243,8 +243,6 @@ ul > li {
 .distribution {
   display: flex;
   flex-direction: column;
-  margin-right: 15px;
-  margin-left: 15px;
 }
 
 .distribution_mail {
@@ -272,7 +270,6 @@ ul > li {
 }
 
 .tags {
-  padding: 0 15px;
   margin-bottom: 60px;
 }
 
@@ -292,8 +289,6 @@ ul > li {
 
 .themes_list {
   list-style-type: none;
-  padding-left: 15px;
-  padding-right: 15px;
 }
 
 .themes_list_item {
@@ -319,8 +314,6 @@ ul > li {
   min-height: 330px;
   display: flex;
   flex-direction: column;
-  padding-left: 15px;
-  padding-right: 15px;
   margin-bottom: 27px;
 }
 
@@ -376,15 +369,21 @@ ul > li {
   text-transform: uppercase;
 }
 
+.footer_style {
+  max-width: 1170px;
+  background-color: #f4f7f6;
+  margin: 0 auto;
+}
+
 .social_wrapper {
   max-width: 1200px;
-  margin: 0 auto;
+
   padding-right: 15px;
   padding-left: 15px;
   display: flex;
   align-items: center;
   flex-wrap: nowrap;
-  background-color: #f4f7f6;
+
   min-height: 83px;
   justify-content: center;
   margin-bottom: 73px;
@@ -1196,12 +1195,20 @@ ul > li {
     font-size: 14px;
   }
 
+  .trends_text:hover {
+    text-decoration: underline;
+  }
+
   .trends_text:last-child {
     margin-right: 0px;
   }
 
   .trends_title {
     font-size: 20px;
+  }
+
+  .trends_title:hover {
+    color: #b59f5b;
   }
 
   .container {
@@ -1234,8 +1241,13 @@ ul > li {
     margin-bottom: 14px;
   }
 
+  .post_text:hover {
+    text-decoration: underline;
+  }
+
   .post_list {
     display: flex;
+    flex-wrap: wrap;
   }
 
   .post_title {
@@ -1278,6 +1290,10 @@ ul > li {
   .section_title {
     font-size: 14px;
     margin-bottom: 45px;
+  }
+
+  .section_title_dt {
+    font-size: 20px;
   }
 
   .news_img {
