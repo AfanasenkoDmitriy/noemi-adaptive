@@ -309,7 +309,6 @@ ul > li {
   text-align: center;
   width: 100%;
   padding-left: 15px;
-  
 }
 
 .product_card {
@@ -425,7 +424,7 @@ ul > li {
   height: 100vh;
   padding-top: 50px;
 
-  position: absolute;
+  position: fixed;
   top: 0;
   left: 0;
 
@@ -468,6 +467,8 @@ ul > li {
   background-color: #f4f7f6;
 
   color: rgba(0, 0, 0, 0.5);
+
+  outline: none;
 }
 
 .popup_fieldset {
@@ -952,13 +953,37 @@ ul > li {
     font-size: 17px;
   }
 
+  .trends_list {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .posts {
+    max-width: 60%;
+  }
   .post_list {
     display: flex;
   }
 
-  .trends_list {
+  .post_image {
+    max-width: 70%;
+  }
+
+  .aside {
+    max-width: 40%;
+  }
+
+  .new_post_item {
     display: flex;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
+  }
+
+  .news_img {
+    margin-right: 10px;
+  }
+
+  .product_card {
+    margin-right: 10px;
   }
 
   @media (min-width: 640px) and (orientation: landscape) {
